@@ -5,7 +5,7 @@ function [targetSpeed, stage, driveEnable, pathCmd, ledStripCmd, ledsCmd] = ...
 % TaxiMissionManager - MULTI-RIDE QUEUE + HARDCODED PATH SELECTION
 % Paths 1..9 exist, Path 8 is DUMMY (never command 8).
 %
-% Stages:
+% Stages: 
 %  1 Drive to PICKUP
 %  2 Stop at PICKUP
 %  3 Drive to DROPOFF (or STOP then DROPOFF for Ride E)
