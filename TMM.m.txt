@@ -425,7 +425,7 @@ stopID = uint8(255);
 
 switch int32(rideID)
 
-    case 1 % Ride A: 1 -> 8   (Hub -> Pickup uses TWO paths: 6 then 9)
+    case 1 % Ride A: 21 -> 8   (Hub -> Pickup uses TWO paths: 6 then 9)
         pickupID  = uint8(21);
         dropoffID = uint8(8);
 
